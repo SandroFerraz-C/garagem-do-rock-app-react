@@ -1,0 +1,8 @@
+button.buttonhome {
+    margin-left: 1%;
+    width: 155px;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 14px;
+    background: -webkit-linear-gradient(top, #1f282e, #325d7a);
+}

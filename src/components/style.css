@@ -1,0 +1,85 @@
+.bands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttonBands {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: rgb(235, 227, 227);
+}
+
+.container-header {
+    background-color: rgb(37, 23, 75);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.container-header button {
+    width: 200px;
+    text-align: center;
+    color: #eee;
+    margin: 20px 15px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(52, 35, 97);
+    font-size: 14px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgb(235, 227, 227);
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.buttonHistoryAcdc {
+    display: flex;
+    height: 70px;
+}
+
+.voltarAcdc {
+    margin-left: 1%;
+    width: 205px;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 14px;
+    background: -webkit-linear-gradient(top, #1f282e, #325d7a);
+}
+
+.historyAcdc {
+    background: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.historyAcdc h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.historyAcdc p {
+    margin-bottom: 2%;
+    font-size: 22px;
+}
+
+.footer-content {}
